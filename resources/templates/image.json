@@ -1,0 +1,70 @@
+{
+    "layouts": [
+        {
+            "width": 400,
+            "height": 300,
+            "backgroundColor": "blue",
+            "elements": [
+                {
+                    "imageTransform": {
+                      "a": 1,
+                      "b": 0,
+                      "c": 0,
+                      "d": 1,
+                      "tx": 54.22222222222222,
+                      "ty": 87.1111111111111
+                    },
+                    "transform": {
+                      "a": 0.667450331019357,
+                      "b": 0.7446543195484404,
+                      "c": -0.7446543195484404,
+                      "d": 0.667450331019357,
+                      "tx": 0,
+                      "ty": 0
+                    },
+                    "type": "mask",
+                    "category": "model",
+                    "opacity": 1,
+                    "padding": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "width": 666.6666666666666,
+                    "height": 787.5555555555555,
+                    "left": 62.333333333333385,
+                    "top": -1.9095836023552692e-14,
+                    "boxShadow": null,
+                    "resize": 7,
+                    "dragable": false,
+                    "rotatable": true,
+                    "editable": true,
+                    "frozen": false,
+                    "hidden": false,
+                    "lock": false,
+                    "style": {},
+                    "borderRadius": 0,
+                    "clip": null,
+                    "filter": {
+                      "hueRotate": 0,
+                      "saturate": 0,
+                      "brightness": 0,
+                      "gaussianBlur": 0
+                    },
+                    "image": null,
+                    "url": "http://st-cjxq.dancf.com/cjxq/1533272592710-827193.jpg",
+                    "mask": "https://st0.dancf.com/www/92591809/design/20180302-144913-2.jpg",
+                    "imageUrl": "//st-cjxq.dancf.com/cjxq/4/20181023/4_detail_poster_1540265400_YeK2Jg_jnl691f3.png",
+                    "imageWidth": 607.1833111407013,
+                    "imageHeight": 910.7749667110519,
+                    "version": "5.1.26",
+                    "categories": [
+                      "model",
+                      "frontSide"
+                    ]
+                }
+            ]
+        }
+    ]
+}

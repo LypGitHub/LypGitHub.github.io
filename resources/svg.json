@@ -1,0 +1,72 @@
+{
+  "version": "5.2.8",
+  "type": "poster",
+  "global": {
+    "zoom": 1,
+    "source": "gaoding"
+  },
+  "layouts": [
+    {
+      "title": "",
+      "backgroundSize": null,
+      "backgroundImage": null,
+      "backgroundColor": "#ffffffff",
+      "backgroundRepeat": "no-repeat",
+      "height": 500,
+      "width": 900,
+      "className": null,
+      "repeatId": null,
+      "repeatGroup": null,
+      "elements": [
+        {
+          "transform": {
+            "a": 1,
+            "b": 0,
+            "c": 0,
+            "d": 1,
+            "tx": 0,
+            "ty": 0
+          },
+          "type": "svg",
+          "category": "",
+          "opacity": 1,
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "width": 575,
+          "height": 250,
+          "left": 200,
+          "top": 100,
+          "boxShadow": null,
+          "resize": 5,
+          "dragable": true,
+          "rotatable": true,
+          "editable": true,
+          "frozen": false,
+          "hidden": false,
+          "lock": false,
+          "style": {},
+          "borderRadius": 0,
+          "clip": null,
+          "filter": {
+            "hueRotate": 0,
+            "saturate": 0,
+            "brightness": 0,
+            "gaussianBlur": 0
+          },
+          "url": "",
+          "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"575\" height=\"250\" viewBox=\"0 0 575 250\">\n  <title>SVG</title>\n  <g class=\"Layer_2\" data-name=\"Layer 2\">\n    <g class=\"Layer_1-2\" data-name=\"Layer 1\">\n      <g class=\"svg-se\">\n        <path d=\"M527.5,249.49a47.21,47.21,0,0,0,47-47h-47Z\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n      <g class=\"svg-s\">\n        <path d=\"M47.5,202.5v47h480v-47Z\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n      <g class=\"svg-sw\">\n        <path d=\"M.51,202.5a47.21,47.21,0,0,0,47,47v-47Z\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n      <g class=\"svg-e\">\n        <path d=\"M527.5,47.5v155h47c0-.08,0-.16,0-.23V47.73c0-.07,0-.15,0-.23Z\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n      <g class=\"svg-c\">\n        <rect x=\"47.5\" y=\"47.5\" width=\"480\" height=\"155\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n      <g class=\"svg-w\">\n        <path d=\"M47.5,47.5H.51c0,.08,0,.16,0,.23V202.27c0,.07,0,.15,0,.23h47Z\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n      <g class=\"svg-ne\">\n        <path d=\"M574.49,47.5a47.21,47.21,0,0,0-47-47v47Z\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n      <g class=\"svg-n\">\n        <path d=\"M527.5,47.5V.51H47.5v47Z\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n      <g class=\"svg-nw\">\n        <path d=\"M47.5.51a47.21,47.21,0,0,0-47,47h47Z\" style=\"fill:#ff0;stroke:#000;\"/>\n      </g>\n    </g>\n  </g>\n</svg>",
+          "colors": [
+            "#ff0000ff",
+            "#66250fff"
+          ],
+          "version": "5.2.7"
+        }
+      ],
+      "top": 0
+    }
+  ]
+}

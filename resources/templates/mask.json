@@ -1,0 +1,44 @@
+{
+    "layouts": [
+        {
+            "width": 800,
+            "height": 600,
+            "backgroundColor": "black",
+            "backgroundImage": "",
+            "elements": [
+                {
+                    "$id": 1,
+                    "type": "mask",
+                    "width": 300,
+                    "height": 300,
+                    "top": 59,
+                    "imageUrl": "https://pixijs.io/examples/required/assets/p2.jpeg",
+                    "mask": "http://www.pixijs.com/img/pixijs-v4-logo.png"
+                }
+            ]
+        },
+        {
+            "width": 400,
+            "height": 300,
+            "backgroundColor": "blue",
+            "elements": [
+                {
+                    "$id": 3,
+                    "type": "image",
+                    "width": 300,
+                    "height": 300,
+                    "top": 19,
+                    "url": "https://pixijs.io/examples/required/assets/basics/bunny.png",
+                    "$naturalWidth": 26,
+                    "$naturalHeight": 37
+                },
+                {
+                    "$id": 4,
+                    "type": "text",
+                    "content": "哈哈 我在第二个 layout",
+                    "top": 30
+                }
+            ]
+        }
+    ]
+}
