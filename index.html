@@ -142,7 +142,7 @@ input, button, textarea{
                 <div class="editor-logs"><textarea id='logArea'></textarea></div>
                 <div class="pipe"></div>
                 <button @click="setTemplet()">载入模板</button>
-                <!-- 模板在 resources/templates 目录下 -->
+                <!-- 模板在 static/templates 目录下 -->
                 <!-- 可通过 localStorage.tpl 覆盖该配置 -->
                 <input id="tpl-name" placeholder="模板名" value="default"/>
                 <button @click="exportTemplet()">导出模板</button>
@@ -192,7 +192,7 @@ input, button, textarea{
         }
     };
 
-    $.getJSON('./resources/font-list.json').then(function(fontList) {
+    $.getJSON('./static/font-list.json').then(function(fontList) {
         window.app = new Vue({
             el: '#app',
             // components: {
@@ -234,7 +234,7 @@ input, button, textarea{
                     var _this = this;
                     var name = localStorage.tpl || $('#tpl-name').val();
                     // 在该路径下切换配置模板
-                    $.getJSON('./resources/templates/' + name + '.json')
+                    $.getJSON('./static/templates/' + name + '.json')
                     .then(function(tpl) {
                         _this.editor.setTemplet(tpl);
                         logger.info('模板载入成功~');
@@ -320,8 +320,8 @@ input, button, textarea{
                 },
                 addSvg() {
                     var _this = this;
-                    $.getJSON('./resources/svg.json').then(function(el) {
-                        $.get('./resources/dot9.svg').then(function(svg) {
+                    $.getJSON('./static/svg.json').then(function(el) {
+                        $.get('./static/dot9.svg').then(function(svg) {
                             var parser = new XMLSerializer();
                             var svgStr = parser.serializeToString(svg);
                             el.content = svgStr;
@@ -331,14 +331,14 @@ input, button, textarea{
                 },
                 addMask() {
                     var _this = this;
-                    $.getJSON('./resources/mask.json').then(function(content) {
+                    $.getJSON('./static/mask.json').then(function(content) {
                         _this.editor.addElement(content);
                     });
                 },
                 addGroup() {
                     var _this = this;
-                    $.getJSON('./resources/group-container.json').then(function(el) {
-                        $.get('./resources/dot9.svg').then(function(svg) {
+                    $.getJSON('./static/group-container.json').then(function(el) {
+                        $.get('./static/dot9.svg').then(function(svg) {
                             var parser = new XMLSerializer();
                             var svgStr = parser.serializeToString(svg);
                             el.elements[0].content = svgStr;
